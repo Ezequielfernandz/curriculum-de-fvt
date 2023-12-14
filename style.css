@@ -1,0 +1,73 @@
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1f1f1f; /* Color de fondo militar oscuro */
+    color: #FFFFFF; /* Color del texto */
+    line-height: 1.6;
+  }
+  
+  .header {
+    background-color: #333333; /* Color de fondo del encabezado */
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .titulo {
+    font-size: 36px;
+    margin: 0;
+    color: #66FF66; /* Color del título */
+    text-transform: uppercase;
+  }
+  
+  .contenido {
+    padding: 20px;
+  }
+  
+  /* Estilos para secciones específicas */
+  
+  .trabajo,
+  .proyecto,
+  .educacion {
+    margin-bottom: 30px;
+    border-left: 4px solid #66FF66; /* Línea vertical lateral */
+    padding-left: 15px;
+  }
+  
+  .trabajo h3,
+  .proyecto h3,
+  .educacion h3 {
+    font-size: 26px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #66FF66; /* Línea inferior */
+    padding-bottom: 5px;
+  }
+  
+  .trabajo p,
+  .proyecto p,
+  .educacion p {
+    margin-bottom: 8px;
+  }
+  
+  .trabajo ul,
+  .proyecto ul {
+    margin-left: 25px;
+    list-style-type: disc; /* Estilo de viñetas para listas */
+  }
+  
+  .trabajo ul li,
+  .proyecto ul li {
+    margin-bottom: 5px;
+  }
+  
+  /* Enlaces */
+  a {
+    color: #66FF66; /* Color de los enlaces */
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
