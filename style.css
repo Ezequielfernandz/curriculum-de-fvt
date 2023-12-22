@@ -1,7 +1,5 @@
-/* Estilos generales */
-/* Estilos generales */
 body {
-  font-family: 'Arial', sans-serif;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   margin: 0;
   padding: 0;
   background-color: #1a1a1a; /* Color de fondo oscuro */
@@ -20,8 +18,9 @@ body {
 .titulo {
   font-size: 36px;
   margin: 0;
-  color: #12e20a; /* Color del título */
+  color: #ffffff; /* Color del título */
   text-transform: uppercase;
+ 
 }
 
 .contenido {
@@ -74,4 +73,27 @@ a {
 
 a:hover {
   text-decoration: underline;
+}
+
+/* Estilos para el footer */
+.footer {
+  background-color: #292929; /* Fondo del footer */
+  color: #CCCCCC; /* Color del texto */
+  text-align: center;
+  padding: 20px 0;
+}
+
+.redes a {
+  margin: 0 15px; /* Espacio entre íconos de redes sociales */
+}
+
+.redes img {
+  width: 30px; /* Tamaño de los íconos */
+  height: 30px;
+  border-radius: 50%; /* Borde redondeado */
+  transition: transform 0.3s ease-in-out;
+}
+
+.redes img:hover {
+  transform: scale(1.2); /* Efecto de escala al pasar el mouse sobre los íconos */
 }
