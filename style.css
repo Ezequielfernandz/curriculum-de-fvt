@@ -20,7 +20,7 @@ body {
 .titulo {
   font-size: 36px;
   margin: 0;
-  color: #FFA500; /* Color del título */
+  color: #12e20a; /* Color del título */
   text-transform: uppercase;
 }
 
@@ -34,7 +34,7 @@ body {
 .proyecto,
 .educacion {
   margin-bottom: 30px;
-  border-left: 4px solid #FFA500; /* Línea vertical lateral en tono naranja */
+  border-left: 4px solid #01801c; /* Línea vertical lateral en tono verde oscuro */
   padding-left: 15px;
   background-color: #2f2f2f; /* Color de fondo oscuro */
 }
@@ -44,7 +44,7 @@ body {
 .educacion h3 {
   font-size: 26px;
   margin-bottom: 10px;
-  border-bottom: 2px solid #FFA500; /* Línea inferior en tono naranja */
+  border-bottom: 2px solid #01801c; /* Línea inferior en tono naranja */
   padding-bottom: 5px;
   color: #FFFFFF; /* Color del título */
 }
@@ -68,7 +68,7 @@ body {
 }
 
 a {
-  color: #FFA500; /* Color de los enlaces */
+  color: #01801c; /* Color de los enlaces */
   text-decoration: none;
 }
 
